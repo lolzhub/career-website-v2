@@ -73,6 +73,11 @@ category = "main"
 optional = false
 python-versions = ">=3.7"
 
+[[package]]
+name="gunicorn"
+version = "19.1.1"
+
+
 [package.dependencies]
 MarkupSafe = ">=2.1.1"
 
