@@ -8,25 +8,25 @@ JOBS = [
     'id':1,
     'title':'Data Analyst',
     'location':'Pune, India',
-    'salary':1000
+    'salary':1000000
   },
     {
     'id':2,
     'title':'Data Scientist',
     'location':'Delhi, India',
-    'salary':2000
+    'salary':2000000
   },
     {
     'id':3,
     'title':'Frontend dev',
     'location':'Remote',
-    'salary':3000
+    'salary':3000000
   },
     {
     'id':4,
     'title':'Backend dev',
     'location':'Nagpur, India',
-    'salary':4000
+    'salary':4000000
   }
 ]
 
