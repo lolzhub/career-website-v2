@@ -11,13 +11,14 @@
       width: 100%;
       height: 360px;
       object-fit:cover;
+      margin-bottom:16px;
     }</style>
 </head>
 <body>
+  {% include 'nav.html' %}
+  <img id="banner" class="img-fluid" src="https://career-website.bravebuttermilk.repl.co/static/banner_career.png" height="320">
 <div class="container">  
   <h1 class="text-center mt-3 mb-4" >Aditya Careers</h1>
-  <img id="banner" class="img-fluid" src="https://career-website.bravebuttermilk.repl.co/static/banner_career.png" height="320">
-  <h2 class="text-center mt-3 mb-4">About Aditya</h2>
   <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit       molestiae a praesentium vitae ad, corporis illum mollitia inventore saepe dolorem blanditiis omnis expedita odio labore magni. Cumque quisquam necessitatibus sed?</p>
 
   <h2 class="text-center mt-3 mb-4">Positions Available</h2>
@@ -27,7 +28,7 @@
     {% endfor %}
   </p>
   <div class="text-center">
-    <button class="btn btn-primary btn-large">Contact Us</button>
+    <a href="mailto:pwnxd@protonmail.me?subject=Question%20About%20Job%20Opening&body=My%20name%3A%20''%0D%0A%0D%0AQuestion%3A%20''" class="btn btn-primary btn-large">Contact Us</a>
   </div>
   <p class="text-center mt-4">Copyright, 2023 Aditya Dayal</p>
 </div>
